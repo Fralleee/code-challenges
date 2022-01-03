@@ -1,4 +1,4 @@
-export const findLongestCommonSubsequenceOfTwoStrings = (str1: string, str2: string): string => {  
+export const findLongestCommonSubsequenceOfTwoStrings = (str1: string, str2: string): string => {
   let characters = [...str1]
   let currentLongestSequence: string = ""
 
@@ -9,18 +9,18 @@ export const findLongestCommonSubsequenceOfTwoStrings = (str1: string, str2: str
     // Using reduce to keep down iterations compared to map + filter
     const matchingCharacters = characters.reduce((matches, char): string => {
       const index = str2.indexOf(char, currentIndex)
-      if(index != -1) {
+      if (index != -1) {
         currentIndex = index + 1
         return matches + char
       }
       return matches
     }, "")
-  
-    if(matchingCharacters.length > currentLongestSequence.length) {
+
+    if (matchingCharacters.length > currentLongestSequence.length) {
       currentLongestSequence = matchingCharacters;
     }
 
-    [,...characters] = characters
+    [, ...characters] = characters
   }
 
   return currentLongestSequence
