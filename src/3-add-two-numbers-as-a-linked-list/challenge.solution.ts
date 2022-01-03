@@ -8,6 +8,7 @@ class LinkedListNode<T> {
   }
 }
 
+// We are using doubly linked list to reduce time complexity
 export class LinkedList<T> {
   head: (LinkedListNode<T> | null) = null
 
