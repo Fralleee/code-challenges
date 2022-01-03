@@ -1,4 +1,4 @@
-name: Run tests workflow
+name: Challenges tests status
 
 env:
   GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build-test-deploy:
+  run-tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
