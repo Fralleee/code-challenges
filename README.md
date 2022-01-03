@@ -1,4 +1,4 @@
-# Code challenges
+# Code challenges [![Challenges tests status](https://github.com/Fralleee/code-challenges/actions/workflows/deployment.yml/badge.svg)](https://github.com/Fralleee/code-challenges/actions/workflows/deployment.yml)
 A collection of code challenges from different companies and their solutions written in Typescript.
 
 ---
