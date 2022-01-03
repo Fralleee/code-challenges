@@ -2,7 +2,7 @@ export const findLongestCommonSubsequenceOfTwoStrings = (str1: string, str2: str
   let characters = [...str1]
   let currentLongestSequence: string = ""
 
-  // Only iterating on the first string when we have a potential longer sequence
+  // Only iterating on the first string when we have a potentially longer sequence
   while (characters.length > currentLongestSequence.length) {
     let currentIndex = 0
 
