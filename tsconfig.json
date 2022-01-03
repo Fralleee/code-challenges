@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "challenges",
+    "baseUrl": "./",
     "rootDir": "./",
     "outDir": "./build",
     "target": "es2016",
