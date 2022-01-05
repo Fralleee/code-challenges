@@ -1,4 +1,4 @@
-<!-- [![Generic badge](https://img.shields.io/badge/Status-Completed-green.svg)](https://shields.io/) -->
+[![Generic badge](https://img.shields.io/badge/Status-Completed-green.svg)](https://shields.io/)
 # Add two numbers as a linked list
 You are given two linked-lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
