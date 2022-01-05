@@ -7,3 +7,4 @@ A collection of code challenges from different companies and their solutions wri
 1. [Longest common subsequence of two strings](/src/1-longest-common-subsequence-of-two-strings)
 2. [Longest substring without repeating characters](/src/2-longest-substring-without-repeating-characters)
 3. [Add two numbers as a linked list](/src/3-add-two-numbers-as-a-linked-list)
+4. [Validate balanced paranthases](/src/4-validate-balanced-parantheses)
