@@ -1,4 +1,4 @@
-<!-- [![Generic badge](https://img.shields.io/badge/Status-Completed-green.svg)](https://shields.io/) -->
+[![Generic badge](https://img.shields.io/badge/Status-Completed-green.svg)](https://shields.io/)
 # Validate balanced parantheses
 Imagine you are building a compiler. Before running any code, the compiler must check that the parentheses in the program are balanced. 
 Every opening bracket must have a corresponding closing bracket. We can approximate this using strings.
