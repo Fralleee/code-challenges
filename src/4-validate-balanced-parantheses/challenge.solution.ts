@@ -8,8 +8,6 @@ class Stack<T> {
     this.top = this.top + 1;
   }
 
-  length = () => this.top
-
   peek = () => this.data[this.top - 1]
 
   isEmpty = () => this.top === 0
