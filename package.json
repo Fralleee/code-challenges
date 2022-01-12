@@ -6,7 +6,8 @@
   "license": "MIT",
   "author": "Roland Chelwing",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watch"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
