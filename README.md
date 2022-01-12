@@ -8,3 +8,6 @@ A collection of code challenges from different companies and their solutions wri
 2. [Longest substring without repeating characters](/src/2-longest-substring-without-repeating-characters)
 3. [Add two numbers as a linked list](/src/3-add-two-numbers-as-a-linked-list)
 4. [Validate balanced parantheses](/src/4-validate-balanced-parantheses)
+5. [Reverse a linked list](/src/5-reverse-a-linked-list)
+6. [Sorting a list with 3 unique numbers](/src/6-sorting-a-list-with-3-unique-numbers)
+7. [Two sum](/src/7-two-sum)
