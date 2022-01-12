@@ -9,10 +9,9 @@ export const checkIncreasingArrayWithSingleModification = (numbers: number[]): b
       if (hasModified) return false
 
       const previous = i > 0 ? numbers[i - 1] : Number.MIN_VALUE
-      const potentialLowerValue = next
-      if (potentialLowerValue < previous) return false
+      if (next < previous) numbers[i + 1] = current
+      else numbers[i] = next
 
-      numbers[i] = potentialLowerValue
       hasModified = true
     }
   }
