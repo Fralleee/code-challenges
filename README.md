@@ -11,3 +11,4 @@ A collection of code challenges from different companies and their solutions wri
 5. [Reverse a linked list](/src/5-reverse-a-linked-list)
 6. [Sorting a list with 3 unique numbers](/src/6-sorting-a-list-with-3-unique-numbers)
 7. [Two sum](/src/7-two-sum)
+8. [Find the non-duplicate number](/src/8-find-the-non-duplicate-number)
